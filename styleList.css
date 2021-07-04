@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+ul li:nth-child(odd) {
+    background: #a5ccda;
+}
+ul li:nth-child(even) {
+    background: #add8e6;    
+}
+ul li {
+    list-style: none;  
+    list-style-type: none  
+}
+a {
+    text-decoration: none;
+}
+.but1:active, .but1:visited, .but1:focus,.but1:focus-within {
+    text-decoration: line-through;
+}
+
+ul li {        
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.close {
+    color: red;
+    text-decoration: none;
+    /* padding-left: 15px; */
+    font-family: -webkit-pictograph;
+    padding: 12px 16px 12px 16px;
+}
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+.checked {
+    padding-right: 10px;
+}
+.check::before {
+    content: url("./icons/unchecked_16.png");
+    position: absolute;        
+}
+.checked:active .check::before {
+    content: url("./icons/checked_16.png");
+    position: absolute;
+}
+.but1 {
+    background: none;
+    border:none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+

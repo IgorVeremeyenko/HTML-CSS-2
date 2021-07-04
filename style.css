@@ -1,0 +1,19 @@
+div {
+    background-color: #ed9eae;
+    color:  white;
+    font-family: sans-serif;
+}
+ul {
+    padding: 1%;
+    list-style: none;
+}
+li {
+    background-color: #c66376;
+    padding: 1%;
+    margin: 10px;
+}
+mark {
+    background-color: #9e354a;
+    color: white;
+    padding: inherit;
+}
